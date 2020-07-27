@@ -1,0 +1,57 @@
+<html>
+<head>
+</head>
+
+<body>
+	<div class="topbanner">
+		<div class="leftpart"></div>
+		<div class="middlepart"><p id="midPartText">Connecting...</p></div>
+		<div class="rightpart"><p id="timeLeft"></p></div>
+	</div>
+	<div class="mid">
+		<div class="playerArea">
+			<ul id="playerOnline">
+				<li>Players Online: </li>
+			</ul>
+		</div>
+		<div class="gameArea">
+			<canvas id="game" class="game" width="1024" height="768"></canvas>
+			<div class="chatArea">
+				<ul id='chatlog'>
+					<li>Welcome!</li>
+				</ul>
+				<input type="text" maxlength="100" id="chatMessage" onkeypress="checkEnterPress(event)" class="chatMessageArea" />
+			</div>
+			<div class="buttons">
+				<div class="slider">
+					<input type="range" id="drawSize" min="2" max="30" value="5" oninput="showValue(this.value)" /> <p id="sliderValue" class="sliderValue">5</p>
+				</div>
+
+					<select id="colorPicker" class="color">
+						<option id="#fff">White</option>
+						<option id="#000">Black</option>
+						<option id="#A0A0A0">Gray</option>
+						<option id="#F00">Red</option>
+						<option id="#FF6A00">Orange</option>
+						<option id="#4CF0">Blue</option>
+						<option id="#00FF21">Green</option>
+						<option id="#B200FF">Purple</option>
+						<option id="#FF7FED">Pink</option>
+					</select>
+
+			</div>
+		</div>
+	</div>
+</body>
+<link rel="stylesheet" text="type/css" href="src/css/styles.css"/>
+<script src="src/js/main.js"></script>
+<script src="src/js/cursor.js"></script>
+<script src="src/js/connection.js"></script>
+<script src="src/js/user.js"></script>
+<script src="src/js/socket.io-1.4.5.js"></script>
+<script>
+	function showValue(newValue) {
+		document.getElementById("sliderValue").innerHTML = newValue;
+	}
+</script>
+</html>

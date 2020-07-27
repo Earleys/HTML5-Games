@@ -1,0 +1,9 @@
+{
+    "name": "AgarIO",
+    "version": "0.0.1",
+    "description": "AgarIO-based game",
+    "dependencies": {
+        "socket.io": "latest"
+    },
+    "author": "Earleys"
+}

@@ -1,0 +1,123 @@
+body {
+	background-color: #E5E5E5;
+	padding:0;
+	margin:0;
+
+}
+
+/* ------ TOP ------- */
+.topbanner {
+	background-color:#FFBE00;
+	float:top;
+	height:32px;
+	border-color: gold;
+}
+
+.leftpart {
+	height:32px;
+	float:left;
+	width:30%;
+}
+
+.middlepart {
+	height:32px;
+	background-color: #FFD700;
+	max-width:40%;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:20px;
+}
+
+.rightpart {
+	float:right;
+	width:30%;
+}
+
+/* ------ MID ------- */
+
+.mid {
+	width:100%;
+}
+
+
+.playerArea {
+	float:left;
+	background-color: white;
+	width:20%;
+	height:80%;
+}
+
+.chatArea {
+	float:right;
+	background-color: white;
+	width:20%;
+	height:80%;
+	display:block;
+}
+
+.game {
+	width:60%;
+	height:80%;
+	float:left;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.chatMessageArea {
+	width:100%;
+}
+
+
+ul {
+	padding:2px;
+	list-style-type:none;
+}
+
+.buttons {
+
+}
+
+.slider {
+	float:left;
+	width:100px;
+}
+.sliderValue { 
+	float:left;
+	padding:0;
+	margin:0;
+	white-space:nowrap;
+}
+
+.color {
+	float:left;
+	margin-left:70px;
+}
+
+
+@media screen and (max-width:900px)
+{
+	.playerArea {
+		display: none;
+
+	}
+
+
+	.game {
+		float:left;
+		display:table-cell;
+		width:70%;
+	}
+
+	.chatArea {
+		float:right;
+		width:30%;
+	}
+
+	.chatMessageArea {
+		width:100%;
+	}
+
+
+
+	
+}

@@ -1,0 +1,10 @@
+C:\Users\Earleys\Desktop\HTML5 Games\Agar IO\Server\RemoteDesktop\RemoteDesktop\bin\Debug\RemoteDesktop.exe.config
+C:\Users\Earleys\Desktop\HTML5 Games\Agar IO\Server\RemoteDesktop\RemoteDesktop\bin\Debug\RemoteDesktop.exe
+C:\Users\Earleys\Desktop\HTML5 Games\Agar IO\Server\RemoteDesktop\RemoteDesktop\bin\Debug\RemoteDesktop.pdb
+C:\Users\Earleys\Desktop\HTML5 Games\Agar IO\Server\RemoteDesktop\RemoteDesktop\obj\Debug\RemoteDesktop.Form1.resources
+C:\Users\Earleys\Desktop\HTML5 Games\Agar IO\Server\RemoteDesktop\RemoteDesktop\obj\Debug\RemoteDesktop.Properties.Resources.resources
+C:\Users\Earleys\Desktop\HTML5 Games\Agar IO\Server\RemoteDesktop\RemoteDesktop\obj\Debug\RemoteDesktop.csproj.GenerateResource.Cache
+C:\Users\Earleys\Desktop\HTML5 Games\Agar IO\Server\RemoteDesktop\RemoteDesktop\obj\Debug\RemoteDesktop.exe
+C:\Users\Earleys\Desktop\HTML5 Games\Agar IO\Server\RemoteDesktop\RemoteDesktop\obj\Debug\RemoteDesktop.pdb
+C:\Users\Earleys\Desktop\HTML5 Games\Agar IO\Server\RemoteDesktop\RemoteDesktop\obj\Debug\RemoteDesktop.csprojResolveAssemblyReference.cache
+C:\Users\Earleys\Desktop\HTML5 Games\Agar IO\Server\RemoteDesktop\RemoteDesktop\obj\Debug\RemoteDesktop.frmScreen.resources
